@@ -1,0 +1,358 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container principal */
+main {
+  background-color: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensagens */
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+p.success {
+  color: green;
+}
+
+p.error {
+  color: red;
+}
+
+/* Tema escuro */
+body.escuro {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.escuro main {
+  background-color: #1e1e1e;
+}
+
+body.escuro input,
+body.escuro select {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.escuro button {
+  background-color: #2196f3;
+}
+
+body.escuro a {
+  color: #90caf9;
+}
+
+/* Perfil com duas colunas */
+.perfil-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.perfil-grid p {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+body.escuro .perfil-grid p {
+  background: #2c2c2c;
+  border-color: #444;
+}
+
+/* Botão leve para tema */
+.tema-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 8px 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.tema-btn:hover {
+  background-color: #ddd;
+}
+
+body.escuro .tema-btn {
+  background-color: #333;
+  color: #eee;
+  border-color: #555;
+}
+
+body.escuro .tema-btn:hover {
+  background-color: #444;
+}
+
+/* Botão sair destacado */
+.btn-sair {
+  display: inline-block;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-sair:hover {
+  background-color: #c82333;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container principal */
+main {
+  background-color: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensagens */
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+p.success {
+  color: green;
+}
+
+p.error {
+  color: red;
+}
+
+/* Tema escuro */
+body.escuro {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.escuro main {
+  background-color: #1e1e1e;
+}
+
+body.escuro input,
+body.escuro select {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.escuro button {
+  background-color: #2196f3;
+}
+
+body.escuro a {
+  color: #90caf9;
+}
+
+/* Perfil com duas colunas */
+.perfil-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.perfil-grid p {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+body.escuro .perfil-grid p {
+  background: #2c2c2c;
+  border-color: #444;
+}
+
+/* Botão leve para tema */
+.tema-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 8px 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.tema-btn:hover {
+  background-color: #ddd;
+}
+
+body.escuro .tema-btn {
+  background-color: #333;
+  color: #eee;
+  border-color: #555;
+}
+
+body.escuro .tema-btn:hover {
+  background-color: #444;
+}
+
+/* Botão sair destacado */
+.btn-sair {
+  display: inline-block;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-sair:hover {
+  background-color: #c82333;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 40px;
+}
